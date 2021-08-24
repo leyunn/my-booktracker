@@ -1,0 +1,126 @@
+@import '~antd/dist/antd.css';
+
+
+.App {
+  text-align: center;
+  /* padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px; */
+}
+
+.icon{
+  /* height: 30px;
+  width: 30px;
+  margin-top: 8px; */
+  margin-left: 15px;
+  transition: 0.2s;
+}
+
+/* .icon:hover{
+  opacity: 50%;
+  cursor: pointer;
+} */
+
+.page{
+  margin-top: 60px;
+  /* background-color: beige; */
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
+.search{
+  /* margin-bottom: 1px; */
+  margin-top: 7px;
+  height: 30px;
+  /* margin-left: 600px; */
+}
+
+.searchicon{
+  margin-top: 10px;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+
+.searchicon:hover{
+  margin-top: 10px;
+  opacity: 70%;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.notlogin{
+  padding: auto;
+  height: 200px;
+  margin-top: 310px;
+}
+
+
+.home-main{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-left: 15px;
+}
+
+.home-play{
+  margin-left: 20px;
+  height: 450px;
+  width: 1080px;
+  display: flex;
+}
+
+.info{
+  margin-left: 50px;
+  margin-top: 30px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 29vw;
+}
+
+.hover{
+  opacity: 1;
+}
+
+.hover:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.readicon{
+  margin-right: 10px;
+}
+
+.readicon:hover{
+  filter: brightness(40%);
+  transition: 0.2s;
+}
+
+.colors{
+ color: rgb(24, 98, 163);
+ color: rgb(75, 134, 99);
+ color: rgb(156, 50, 50);
+ color:rgb(243, 216, 65);
+ color:rgb(218, 116, 49);
+ color:rgb(250, 249, 246);
+}
+
+#review_edit_button{
+  visibility:hidden;
+}
+
+#review_view:hover #review_edit_button{
+  visibility:visible;
+}
+
+
+.edit_note_button{
+  opacity: 0.95;
+  visibility:hidden;
+}
+
+.note_view:hover .edit_note_button{
+  visibility:visible;
+}
