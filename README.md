@@ -49,9 +49,13 @@ A book tracking application build with *react, express,  mongodb and Google book
 
   **API**: Google books
 
-- #### **Deploy Link: ** https://my-booktracker.herokuapp.com 
+- #### **Deploy Link: **  It's removed for now. 
+
+  (obviously, you can find it in previous commit, lol)
 
   ***warning: best experience using desktop full screen, I will work on RWD :(*** 
+
+  Since I didn't verified the app to Google yet, only test user can log in. The book searching still work though.
 
 - #### How do I run and test "my booktracker" at localhost?
 
