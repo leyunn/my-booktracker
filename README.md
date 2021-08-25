@@ -1,6 +1,8 @@
 ## My booktracker
 
-A reading tracking application base on google books API. My 2021 summer side project :)
+**My 2021 summer side project :)** 
+
+A book tracking application build with *react, express,  mongodb and Google book API*. User have access to an entire library that offers book searching, bookshelf management and reading progress tracking.
 
 ![home_top](./home_top.png)
 
@@ -22,7 +24,7 @@ A reading tracking application base on google books API. My 2021 summer side pro
 
 - #### What is the application about?
 
-  A reading tracking application base on Google books API. 
+  A book tracking application bases on Google books API. 
 
   - **Without Google login**: User can search books based on keywords and see the details of the books such as title, author, description...etc.
   - **With Google login**: 
@@ -49,7 +51,7 @@ A reading tracking application base on google books API. My 2021 summer side pro
 
 - #### **Deploy Link: ** https://my-booktracker.herokuapp.com 
 
-  ***warning: best experience using full screen, I will work on RWD :(*** 
+  ***warning: best experience using desktop full screen, I will work on RWD :(*** 
 
 - #### How do I run and test "my booktracker" at localhost?
 
