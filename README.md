@@ -20,7 +20,7 @@ A book tracking application build with *react, express,  mongodb and Google book
 
   - ###### Leyun Fu(me)
 
-- #### Demo Link: I don't have it yet :(  
+- #### Demo Link: https://www.youtube.com/watch?v=busUHFWhIAw&t=156s 
 
 - #### What is the application about?
 
