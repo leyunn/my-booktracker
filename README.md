@@ -1,30 +1,10 @@
 ## My booktracker
 
-**My 2021 summer side project :)** 
-
 A book tracking application build with *react, express,  mongodb and Google book API*. User have access to an entire library that offers book searching, bookshelf management and reading progress tracking.
 
-![home_top](./home_top.png)
+- #### Demo Video: https://www.youtube.com/watch?v=busUHFWhIAw&t=156s 
 
-![home_top](./search_result.png)
-
-![home_top](./mybooks_page.png)
-
-![home_top](./book_info.png)
-
-![home_top](./review_editor.png)
-
-
-
-- #### Author
-
-  - ###### Leyun Fu(me)
-
-- #### Demo Link: https://www.youtube.com/watch?v=busUHFWhIAw&t=156s 
-
-- #### What is the application about?
-
-  A book tracking application bases on Google books API. 
+- #### Features
 
   - **Without Google login**: User can search books based on keywords and see the details of the books such as title, author, description...etc.
   - **With Google login**: 
@@ -33,67 +13,61 @@ A book tracking application build with *react, express,  mongodb and Google book
     - **Books in any bookshelf**: user can add notes, write review or rate the book from 1 to 5.
     - **Home book**: once you set a book to be your homebook, you have access to a progress tracking slider and a textfield to let you write your thought on the book after today's reading.
 
-- #### What Framework/library did I use?
+- #### Stack
 
-  **Frontend**: 
-
-  ​	- main: react, redux,  javascripts
-
-  ​	- UI: antd, material-ui
-
-  ​	- other library: react-router-dom, react-rating, draft-js, react-draft-wysiwyg, data-fans
+  **Frontend**: react, redux,  javascripts, antd, material-ui, react-router-dom, react-rating, draft-js, react-draft-wysiwyg, data-fans
 
   **Backend**: nodeJS, express, axios
 
   **Database**: mongoDB
 
-  **API**: Google books
+  **API**: Google books API
 
-- #### **Deploy Link: **  It's removed for now. 
+  
 
-  (obviously, you can find it in previous commit, lol)
+- #### Installation (Update: Add Dockerfile)
 
-  ***warning: best experience using desktop full screen, I will work on RWD :(*** 
-
-  Since I didn't verified the app to Google yet, only test user can log in. The book searching still work though.
-
-- #### How do I run and test "my booktracker" at localhost?
-
-  clone repo
+  Clone Repo
 
   ```
-  git clone https://github.com/leyunn/my-booktracker.git
+  git clone https://github.com/leyunn/dockerized_mybooktracker_react.git
   ```
-
-  Install
-
-  ```
-  npm install
-  cd frontend
-  // at frontend
-  npm install
-  npm run build 
-  ```
-
+  
   Create env file for Mongo db connection
-
+  
   ```
-  cd .. 
+  cd app 
   // at my-booktracker
   touch .env
   open .env
   write “MONGO_URL=...(your mongo db database link)”
   ```
-
-  Now you can 
-
+  
+  Install with docker 
+  
   ```
-  // at my-booktracker
+  docker build -t "booktracker_react" .
+  docker-compose -f docker-compose.dev.yml up
+  ```
+  
+  Alternatively, you can install manually,
+  
+  ```
+  cd app
+  npm install
+  cd frontend
+  npm install
+  ```
+  
+  Start 
+  
+  ```
+  // backend
   npm start
-  "my booktracker" is running at localhost:8080!
+  //frontend
+  cd frontend
+  npm start
   ```
-
   
-
   
-
+  

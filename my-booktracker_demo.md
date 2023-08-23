@@ -1,2 +1,0 @@
-## My booktracker demo
-
