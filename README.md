@@ -17,7 +17,7 @@ A book tracking application build with *react, express,  mongodb and Google book
 
   **Frontend**: react, redux,  javascripts, antd, material-ui, react-router-dom, react-rating, draft-js, react-draft-wysiwyg, data-fans
 
-  **Backend**: nodeJS, express, axios
+  **Backend**: nodeJS, express
 
   **Database**: mongoDB
 
